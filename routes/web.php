@@ -18,7 +18,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', function () {
-    dd("Here");
     return view('welcome');
 });
 Route::get("/chat/{id}", function(AppProvider $appProvider, $chat){
